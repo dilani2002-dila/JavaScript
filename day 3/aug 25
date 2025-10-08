@@ -1,0 +1,53 @@
+var number =7;
+function primeNumber (number){
+if (number<=1){
+return "number is not a prime"
+}
+                if (number==2){
+                return"number is a prime"
+}
+else if (number/2==0){
+                return "number is not a prime"
+}
+if (number==3){
+                return"number is a prime"
+}
+else if (number/3==0){
+                return "number is not a prime"
+}
+if (number==5){
+                return"number is a prime"
+}
+else if (number/5==0){
+                return "number is not a prime"
+}
+if (number==7){
+                return"number is a prime"
+}
+else if (number/7==0){
+                return "number is not a prime"
+
+}
+}
+console.log (primeNumber(number));
+
+
+//A shop gives discounts based on purchase amount:
+//if amount >5000->20% discount
+//Else if amount >2000->10% discount
+//Else -> no discount print the final bill amount
+
+var num = 3000;
+function checkDiscount (){
+                if (amount>5000){
+                                return amount*0.8
+                }
+                
+}
+
+ 
+//Write a program to check whether a person's BMI shows they are underweight,normal,overweigh,or obese.
+
+
+
+//Create a simple 
