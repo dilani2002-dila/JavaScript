@@ -1,0 +1,50 @@
+// a) Write a function that returns a random number from 0 to 9 and stores it in the winningDigits array.
+let a =[1,4,0,3,1,8,9,4];
+let b=[6,2,5,3,4,8,1,7];
+
+function random(){
+                let num = [];
+                for (let i= 0; i<num.length ; i++){
+                for( let j=0; j<num.length; j++){
+                 num [i][j]=Math.floor(Math.random ()*100+2);
+                }
+                }
+                return num;
+}
+console.log();
+
+
+// b) Write a function that compares the  winningDigits array and the playerDigits array, then generates the output.
+function generateDigit(mat){
+                for (let i = 0; i< mat.length; i++){
+                 console.log(mat[i]);
+                }
+                
+}
+
+console.log("Do not accept polayer inputs less than 0 and greater than 9.");
+
+
+
+
+
+// c) Execute the above tasks within the main function.
+
+function main(){
+                console.log(a,b);
+}
+
+console.log("winning digit is:"+(a));
+console.log("player digit is:"+(b));
+
+
+
+
+function(n){
+let n = [2,0,2,5];
+
+}
+
+function main(){
+
+}
