@@ -1,0 +1,13 @@
+let mat = [];
+let rows = 3;
+let cols = 3;
+let val = 0
+
+for (let i = 0; i < rows; i++) {
+    mat[i] = [];
+    for (let j = 0; j < cols; j++) {
+        mat[i][j] = val++;
+    }
+}
+
+console.log(mat);
