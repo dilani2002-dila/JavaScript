@@ -26,3 +26,18 @@ console.log(checkyear(year))
 
 //write a program that ask the time (in 24hr format).
 
+
+
+
+
+
+
+
+
+function count(sentence) {
+  const words = sentence.trim().split(/\s+/);
+  return words.length;
+}
+
+const mySentence = "I am learning JavaScript today";
+console.log(count(mySentence));

@@ -46,3 +46,13 @@ function fibonacciNumber(number){
                 return value;
 }
 console.log();
+
+
+
+
+
+
+
+
+
+
